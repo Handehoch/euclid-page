@@ -1,0 +1,84 @@
+.questions__offset {
+  margin-bottom: 90px;
+}
+
+.questions__title {
+  margin: 0;
+  padding-bottom: 26px;
+  border-bottom: 1px solid #CACACA;
+}
+
+.questions__item {
+  border-bottom: 1px solid #CACACA;
+}
+
+.questions__content {
+  font-weight: 400;
+  font-size: 16px;  
+  line-height: 32px;
+}
+
+.questions__content:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.accordion__content {
+  overflow: hidden;
+  transition-property: height, visibility;
+  transition-timing-function: ease;
+}
+
+.accordion--active .accorodin__contnet {
+  visibility: visible;
+}
+
+.questions__button {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.questions__icon svg ellipse {
+  fill: #CACACA;
+}
+
+.questions__icon svg path {
+  fill: #000;
+}
+
+.questions__item:focus {
+  color: #FF9900;
+  border-color: #FF9900;
+}
+
+.questions__item:hover {
+  color: #FF9900;
+  border-color: #FF9900;
+}
+
+.questions__item:focus .questions__icon svg path {
+  fill: #fff;
+}
+
+.questions__item:focus .questions__icon svg ellipse {
+  fill: #FF9900;
+}
+
+.questions__item:hover .questions__icon svg ellipse {
+  fill: #FF9900;
+}
+
+.questions__name {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.questions__content svg ellipse {
+  fill: #CACACA;
+}
+
+.questions__content svg path {
+  fill: #000;
+}

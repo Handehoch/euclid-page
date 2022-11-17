@@ -1,0 +1,129 @@
+.header {
+  padding: 14px 65px;
+  box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 18px;
+}
+
+.header__container {
+  align-items: center;
+}
+
+.header__list {
+  padding-left: 553px;
+  margin-right: 260px;
+}
+
+.header__item {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  margin: 0;
+  margin-right: 85px;
+}
+
+.header__link:focus {
+  outline: 2px solid #FF9900;
+  border-bottom: 2px solid #FF9900;
+}
+
+.header__item:hover {
+  border-bottom: 2px solid #FF9900; 
+}
+
+.header__item:active {
+  color: #E1670E;
+  outline: none;
+  border-bottom: 2px solid #E1670E;
+}
+
+.header__item:last-child {
+  margin: 0;
+}
+
+.header__search-icon {
+  align-items: center;
+  position: relative;
+}
+
+.header__search {
+  height: 24px;
+  width: 24px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  flex-direction: row;
+}
+
+.header__search-field {
+  display: none;
+  align-items: center;
+  position: absolute;
+  right: 25px;
+  z-index: 10000;
+  background-color:#fff;
+  padding: 16px 32px;
+  border-radius: 24px;
+}
+
+.header__search-field--active {
+  display: flex;
+}
+
+.header__input {
+  width: 250px !important;
+  z-index: 1000;
+  border-radius: 24px;
+  padding: 10px;
+}
+
+.header__exit {
+  width: 25px;
+  height: 25px;
+}
+
+.header__input::placeholder {
+  color: #000;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.header__search--active {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.header__search--active .header__input {
+  display: block;
+}
+
+.header__search svg path {
+ stroke: #000000;
+}
+
+.header__search svg rect {
+  fill: #000000;
+}
+
+.header__search:focus svg path {
+  stroke: #FF9900;
+}
+
+.header__search:focus  svg rect {
+  fill: #FF9900;
+}
+
+.header__search:hover {
+  outline: 2px solid #FF9900;
+}
+
+.header__search:hover svg path {
+  stroke: #000;
+}
+
+.header__search:hover  svg rect {
+  fill: #000;
+}
